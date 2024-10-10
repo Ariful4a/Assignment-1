@@ -19,7 +19,7 @@ a {
 }
 
 section {
-    margin: 50px 0;
+    margin: 60px 0;
 }
 
 :root {
@@ -84,7 +84,7 @@ header .container .main_header .right_side a {
     height: 240px;
 }
 
-.main_banner .main_content h2 {
+.main_banner .main_content h1 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 48px;
@@ -107,11 +107,103 @@ header .container .main_header .right_side a {
 .main_banner .main_content .btn {
     margin-top: 68px;
 }
-.main_banner .main_content .btn a  button{
+
+.main_banner .main_content .btn a button {
     background-color: black;
     padding: 21px 24px;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
+    border-radius: 10px;
 
+}
+
+/* web developement section design  */
+
+.main_web .container {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+
+.main_web .container .hading_content {
+    text-align: center;
+}
+
+.main_web .container .hading_content h2 {
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.main_web .container .hading_content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+}
+
+.main_web .container .box_item,
+.box_item-2 {
+    width: 970px;
+    height: 304px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+
+.main_web .container .box_item .left_side {
+    width: 477px;
+    height: 219px;
+}
+
+.main_web .container .box_item .left_side .content h2,
+.main_web .container .box_item-2 .right_side .content h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.main_web .container .box_item .left_side .content p,
+.main_web .container .box_item-2 .right_side .content p {
+    color: rgb(13, 19, 33);
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+.main_web .container .box_item .left_side .content .btn a,
+.main_web .container .box_item-2 .right_side .content .btn a {
+    border: 1px solid gray;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.main_web .container .box_item .right_side .img img {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+
+.main_web .container .box_item-2 {
+    border-radius: 16px;
+    gap: 30px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.main_web .container .box_item-2 .left_side .img img {
+    width: 223.2px;
+    height: 208.85px;
 }

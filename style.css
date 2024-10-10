@@ -22,7 +22,7 @@ section {
     margin: 60px 0;
 }
 
-p{
+p {
     opacity: 0.7;
 
 }
@@ -288,19 +288,24 @@ header .container .main_header .right_side a {
 }
 
 
-.main_target .container .target_box{
+.main_target .container .target_box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
 }
-.main_target .container .target_box .box, .box-2, .box-3  {
+
+.main_target .container .target_box .box,
+.box-2,
+.box-3 {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     margin-top: 50px;
 }
 
-.main_target .container .target_box .box h2, .box-2 h2 , .box-3 h2{
+.main_target .container .target_box .box h2,
+.box-2 h2,
+.box-3 h2 {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
@@ -310,13 +315,18 @@ header .container .main_header .right_side a {
 
 }
 
-.main_target .container .target_box .box p, .box-2 p , .box-3 p{
+.main_target .container .target_box .box p,
+.box-2 p,
+.box-3 p {
     text-align: justify;
     line-height: 26px;
     opacity: 0.7;
 
 }
-.main_target .container .target_box .box .btn a, .box-2 .btn a , .box-3 .btn a{
+
+.main_target .container .target_box .box .btn a,
+.box-2 .btn a,
+.box-3 .btn a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -325,11 +335,64 @@ header .container .main_header .right_side a {
     display: block;
 }
 
-.main_target .container .target_box .box-2{
+.main_target .container .target_box .box-2 {
     border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05); 
+    background: rgba(0, 76, 232, 0.05);
 }
-.main_target .container .target_box .box-3{
+
+.main_target .container .target_box .box-3 {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* My next Target  */
+
+.next_target .container .hading_content {
+    text-align: center;
+    width: 946px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+
+.next_target .container .hading_content h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.next_target .container .hading_content h2 p {
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.next_target .container .next_box{
+    margin-top: 48px;
+}
+.next_target .container .next_box .next_item {
+    display: flex;
+    gap: 24px;
+    border: 1px solid gray;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.next_target .container .next_box .next_item .content h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+
+.next_target .container .next_box .next_item .content .btn a {
+    display: block;
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 20px;
 }

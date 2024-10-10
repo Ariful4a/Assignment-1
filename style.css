@@ -22,6 +22,11 @@ section {
     margin: 60px 0;
 }
 
+p{
+    opacity: 0.7;
+
+}
+
 :root {
     --text-white: white;
     --text-black: black;
@@ -218,6 +223,7 @@ header .container .main_header .right_side a {
     width: 852px;
     height: 113px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .main_inspiration .container .hading_content h2 {
@@ -242,11 +248,88 @@ header .container .main_header .right_side a {
     border: 1px solid gray;
     padding: 32px;
     border-radius: 10px;
+    margin: 0 auto;
+}
+
+.main_inspiration .container .main_video {
     margin-top: 50px;
 }
 
-.main_inspiration .container .video iframe{
+.main_inspiration .container .main_video .video iframe {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+/* My Current Target section design  start */
+
+.main_target .container .hading_content {
+    text-align: center;
+    width: 946px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.main_target .container .hading_content h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+
+}
+
+.main_target .container .hading_content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 0 0;
+
+}
+
+
+.main_target .container .target_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+.main_target .container .target_box .box, .box-2, .box-3  {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-top: 50px;
+}
+
+.main_target .container .target_box .box h2, .box-2 h2 , .box-3 h2{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.main_target .container .target_box .box p, .box-2 p , .box-3 p{
+    text-align: justify;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+.main_target .container .target_box .box .btn a, .box-2 .btn a , .box-3 .btn a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 25px;
+    display: block;
+}
+
+.main_target .container .target_box .box-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05); 
+}
+.main_target .container .target_box .box-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }

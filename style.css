@@ -1,25 +1,117 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-section{
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+section {
     margin: 50px 0;
 }
 
-:root{
+:root {
     --text-white: white;
-    --text-black : black;
+    --text-black: black;
     --bg-color: ;
     --second-bg: ;
 }
 
+/* .header section design start  */
+header {
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .container .main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .main_header {}
+
+header .container .main_header .left_side h2 {
+    font-size: 28px;
+}
+
+
+header .container .main_header .right_side a {
+    padding: 17px 24px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid gray;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* hero section  design start  */
+.main_banner {
+    background-image: url("assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 652px;
+}
+
+.main_banner .main_content {
+    text-align: center;
+    align-content: center;
+    width: 998px;
+    height: 581px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main_banner .main_content .img img {
+    width: 240.28px;
+    height: 240px;
+}
+
+.main_banner .main_content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main_banner .main_content p {
+    width: 852px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.main_banner .main_content .btn {
+    margin-top: 68px;
+}
+.main_banner .main_content .btn a  button{
+    background-color: black;
+    padding: 21px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+
+}

@@ -206,6 +206,14 @@ header .container .main_header .right_side a:hover {
 
 }
 
+
+.main_web .container .box_item .left_side .content .btn a:hover,
+.main_web .container .box_item-2 .right_side .content .btn a:hover{
+    background-color: red;
+    color: white;
+    transition: .6s ease-out;
+}
+
 .main_web .container .box_item .right_side .img img {
     width: 259.56px;
     height: 217.01px;

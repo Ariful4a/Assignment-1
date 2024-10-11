@@ -510,15 +510,18 @@ header .container .main_header .right_side a:hover {
 
 }
 
-#footer .container .content .social_link i {
+#footer .container .content .social_link a i {
     margin-right: 15px;
     font-size: 30px;
 }
 
-#footer .container .content .social_link i:first-child {
+#footer .container .content .social_link a:first-child i {
     color: #1877F2;
 }
+#footer .container .content .social_link a:nth-child(2) i{
+color: black
+}
 
-#footer .container .content .social_link i:last-child {
+#footer .container .content .social_link a:last-child i {
     color: #0072b1;
 }

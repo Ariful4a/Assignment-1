@@ -24,6 +24,7 @@ section {
 
 p {
     opacity: 0.7;
+    line-height: 26px;
 
 }
 
@@ -37,10 +38,6 @@ p {
 /* .header section design start  */
 header {
     padding: 25px 0;
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
 }
 
 header .container .main_header {
@@ -48,8 +45,6 @@ header .container .main_header {
     justify-content: space-between;
     align-items: center;
 }
-
-header .container .main_header {}
 
 header .container .main_header .left_side h2 {
     font-size: 28px;
@@ -64,6 +59,15 @@ header .container .main_header .right_side a {
     align-content: center;
     display: flex;
     align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header .container .main_header .right_side a:hover {
+    background-color: red;
+    color: white;
+    transition: .4s ease-in;
 }
 
 /* hero section  design start  */
@@ -121,6 +125,12 @@ header .container .main_header .right_side a {
     font-weight: 600;
     border-radius: 10px;
 
+}
+
+.main_banner .main_content .btn a button:hover {
+    background-color: red;
+    color: white;
+    transition: .4s ease-out;
 }
 
 /* web developement section design  */
@@ -230,7 +240,7 @@ header .container .main_header .right_side a {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
+    margin-top: 90px;
     margin-bottom: 24px;
 }
 
@@ -274,7 +284,7 @@ header .container .main_header .right_side a {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
+    margin-top: 90px;
 
 }
 
@@ -360,6 +370,7 @@ header .container .main_header .right_side a {
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
+    margin-top: 80px;
     margin-bottom: 24px;
 }
 
@@ -408,11 +419,11 @@ header .container .main_header .right_side a {
     background-size: cover;
     height: 313px;
     padding: 64px 48px;
-   position: relative;
+    position: relative;
 
 }
 
-.support_section .container .support .content{
+.support_section .container .support .content {
     position: absolute;
     background-color: #0000007d;
     width: 100%;
@@ -448,6 +459,7 @@ header .container .main_header .right_side a {
     padding: 10px 15px;
     width: 549px;
     height: 50px;
+    border-radius: 5px;
 }
 
 
@@ -460,4 +472,44 @@ header .container .main_header .right_side a {
     border: 1px solid gray;
     border-radius: 5px;
 
+}
+
+
+.support_section .container .support .content form a:hover {
+
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+/* footer section start  */
+#footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+}
+
+#footer .container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .container .content p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#footer .container .content .social_link i {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+#footer .container .content .social_link i:first-child {
+    color: #1877F2;
+}
+
+#footer .container .content .social_link i:last-child {
+    color: #0072b1;
 }
